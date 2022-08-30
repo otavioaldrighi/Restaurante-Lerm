@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+:root {
+    --bgcolor: #030000;
+    --bglinks: #131113;
+}
+
+body{
+    background-image: url(imagens/bglerm3.jpeg);
+}
+
+.foto{
+    width: 150px;
+    height: 150px ;
+    border-radius: 50%;
+    
+}
+.titulos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bgcolor);
+    padding: 10px;
+    font-family: 'Roboto', cursive
+}
+
+.titulos h1 {
+    font-size: 1.6rem;
+}
+
+.titulos h2{
+    font-size: 1.2rem;
+}
+
+.titulos h3{
+    font-size: 0.8rem;
+}
+
+.linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw ;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.linktree a {
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Calistoga', cursive;
+    border-radius: 5px;
+}
+
+.linktree a:hover {
+    background-color: var(--bgcolor);
+}
+
+div.email{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Calistoga', cursive
+}
+
+div.email:hover{
+    background-color: var(--bgcolor);
+    cursor: text;
+}
+
+.cardapio{
+    background-color: var(--bglinks);
+}
+.whatsapp{
+    background-color:var(--bglinks);
+}
+.facebook{
+    background-color: var(--bglinks);
+}
+.instagram {
+    background-color: var(--bglinks);
+}
+.email{
+    background-color: var(--bglinks);
+}
+.biri{
+    background-color: var(--bglinks);
+    background-color: red;
+}
+
+.footer{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    background-color: var(--bgcolor);
+    width: 100%;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 520px){
+    .foto{
+        width: 100px;
+        height: 100px;
+    }
+    .titulos h1 {
+        font-size: 1.4rem;
+    }
+    
+    .titulos h2{
+        font-size: 1.0rem;
+    }
+    
+    .titulos h3{
+        font-size: 0.6 rem;
+    }
+    
+}
+
+@media (max-width: 420px){
+    .email{
+        font-size: 0.6rem;
+    }
+    .footer{
+        font-size: 0.7rem;
+    }
+}
