@@ -85,7 +85,7 @@ div.email:hover{
     background-color: var(--bglinks);
 }
 .whatsapp{
-    background-color:green;
+    background-color:var(--bglinks);
 }
 .facebook{
     background-color: var(--bglinks);
