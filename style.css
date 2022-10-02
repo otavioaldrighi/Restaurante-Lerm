@@ -1,3 +1,4 @@
+/*Link Fontes*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@300;400&display=swap");
 
@@ -66,6 +67,18 @@ body {
   background-color: var(--bgcolor);
 }
 
+.cardapio {
+  background-color: var(--bglinks);
+}
+.whatsapp {
+  background-color: var(--bglinks);
+}
+.facebook {
+  background-color: var(--bglinks);
+}
+.instagram {
+  background-color: var(--bglinks);
+}
 div.email {
   text-decoration: none;
   text-align: center;
@@ -78,19 +91,6 @@ div.email {
 div.email:hover {
   background-color: var(--bgcolor);
   cursor: text;
-}
-
-.cardapio {
-  background-color: var(--bglinks);
-}
-.whatsapp {
-  background-color: var(--bglinks);
-}
-.facebook {
-  background-color: var(--bglinks);
-}
-.instagram {
-  background-color: var(--bglinks);
 }
 .email {
   background-color: var(--bglinks);
@@ -109,6 +109,8 @@ div.email:hover {
   padding: 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Media Query*/
 
 @media (max-width: 520px) {
   .foto {
